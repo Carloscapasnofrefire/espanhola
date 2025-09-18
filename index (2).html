@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendendo Espanhol</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; font-size: 1.4em;}
+
+    header {background:#c62828; color:#fff; padding:20px; text-align:center;}
+    
+    nav {background:#e53935; display:flex; justify-content:center; flex-wrap:wrap; gap:20px; padding:12px;}
+    nav a {color:#fff; text-decoration:none; font-weight:bold; transition:0.3s;}
+    nav a:hover {text-decoration:underline;}
+    section {padding:30px; max-width:1000px; margin:auto;}
+    h2 {color:#c62828; margin-bottom:10px;}
+    .galeria {display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:15px; margin-top:15px;}
+    .galeria img {width:100%; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2);}
+    footer {background:#333; color:#fff; text-align:center; padding:15px; margin-top:20px;}
+    iframe {width:100%; height:360px; border:none; border-radius:8px;}
+    .quiz {background:#fff; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-top:20px;}
+    .quiz button {background:#c62828; color:#fff; border:none; padding:10px 15px; margin-top:10px; border-radius:6px; cursor:pointer;}
+    .quiz button:hover {background:#b71c1c;}
+    .vocab-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .vocab-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .vocab-card h3 {
+      color: #e53935;
+      margin-bottom: 10px;
+    }
+    .vocab-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .vocab-card ul li {
+      padding: 4px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprendendo Espanhol</h1>
+    <p>Conteúdo básico de gramática, vocabulário, leitura e prática</p>
+  </header>
+
+  <nav>
+    <a href="#gramatica">Gramática</a>
+    <a href="#vocabulario">Vocabulário</a>
+    <a href="#texto">Leitura</a>
+    <a href="#video">Vídeo</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#quiz">Quiz</a>
+  </nav>
+
+  <section id="gramatica">
+    <h2>Gramática Básica</h2>
+    <p>A Língua Espanhola
+
+O espanhol, também chamado de castelhano, é uma das línguas mais faladas do mundo. Atualmente, mais de 500 milhões de pessoas utilizam o espanhol como língua materna ou secundária. Ele é idioma oficial em 21 países, incluindo Espanha, México, Colômbia, Argentina, Peru e Chile, além de ser amplamente falado nos Estados Unidos.
+
+Sua origem está no latim vulgar, trazido à Península Ibérica durante o Império Romano. Com o passar do tempo, o idioma foi se misturando a influências árabes, devido à ocupação muçulmana, e também a outras línguas locais.
+
+O espanhol é conhecido por sua pronúncia clara e ritmo musical, o que facilita o aprendizado para falantes de português. Além disso, possui grande importância cultural, sendo a língua de escritores famosos como Miguel de Cervantes, autor de Dom Quixote.
+
+Aprender espanhol abre portas para conhecer culturas diversas, viajar com mais facilidade, ampliar oportunidades de estudo e trabalho, além de permitir acesso a uma enorme produção literária, musical e cinematográfica.</p>
+    <p>No espanhol, os substantivos têm gênero (masculino e feminino). Exemplos: <b>el libro</b> (o livro), <b>la mesa</b> (a mesa).</p>
+    <p>Os verbos mudam de acordo com a pessoa. Exemplo do verbo <b>comer</b> (comer):</p>
+    <ul>
+      <li>Yo como – Eu como</li>
+      <li>Tú comes – Tu comes</li>
+      <li>Él/Ella come – Ele/Ela come</li>
+    </ul>
+  </section>
+
+
+  <section id="saudacoes">
+    <h2>Vocabulario</h2>
+     <section id="vocabulario">
+    <nav>
+    <a href="#saudacoes">Saudações</a>
+    <a href="#numeros">Números</a>
+    <a href="#cores">Cores</a>
+    <a href="#verbos">Verbos</a>
+    <a href="#comidas">Comidas</a>
+    <a href="#familia">Família</a>
+    <a href="#expressoes">Expressões</a>
+  </nav>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <h3>Saudações</h3>
+        <ul>
+          <li>Hola – Olá</li>
+          <li>Buenos días – Bom dia</li>
+          <li>Buenas tardes – Boa tarde</li>
+          <li>Buenas noches – Boa noite</li>
+          <li>Adiós – Adeus</li>
+          <li>Hasta luego – Até logo</li>
+          <li>Hasta mañana – Até amanhã</li>
+        </ul>
+      </div>
+      <div class="vocab-card">
+        <h3>Expressões</h3>
+        <ul>
+          <li>¿Cómo estás? – Como você está?</li>
+          <li>Estoy bien – Estou bem</li>
+          <li>¿Qué tal? – Tudo bem?</li>
+          <li>Mucho gusto – Prazer em conhecê-lo</li>
+          <li>Gracias – Obrigado(a)</li>
+          <li>De nada – De nada</li>
+          <li>Perdón – Desculpe</li>
+          <li>Lo siento – Sinto muito</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="numeros">
+    <h2>Números</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>0 – cero</li>
+          <li>1 – uno</li>
+          <li>2 – dos</li>
+          <li>3 – tres</li>
+          <li>4 – cuatro</li>
+          <li>5 – cinco</li>
+          <li>6 – seis</li>
+          <li>7 – siete</li>
+          <li>8 – ocho</li>
+          <li>9 – nueve</li>
+          <li>10 – diez</li>
+          <li>20 – veinte</li>
+          <li>30 – treinta</li>
+          <li>100 – cien / ciento</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="cores">
+    <h2>Cores</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>Rojo – Vermelho</li>
+          <li>Azul – Azul</li>
+          <li>Verde – Verde</li>
+          <li>Amarillo – Amarelo</li>
+          <li>Negro – Preto</li>
+          <li>Blanco – Branco</li>
+          <li>Gris – Cinza</li>
+          <li>Naranja – Laranja</li>
+          <li>Rosa – Rosa</li>
+          <li>Marrón – Marrom</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="verbos">
+    <h2>Verbos Comuns</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>Ser – Ser / estar</li>
+          <li>Estar – Estar</li>
+          <li>Tener – Ter</li>
+          <li>Hacer – Fazer</li>
+          <li>Ir – Ir</li>
+          <li>Venir – Vir</li>
+          <li>Decir – Dizer</li>
+          <li>Comer – Comer</li>
+          <li>Beber – Beber</li>
+          <li>Vivir – Viver / morar</li>
+          <li>Hablar – Falar</li>
+          <li>Escuchar – Escutar</li>
+          <li>Leer – Ler</li>
+          <li>Escribir – Escrever</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="comidas">
+    <h2>Comidas e Bebidas</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>Pan – Pão</li>
+          <li>Agua – Água</li>
+          <li>Leche – Leite</li>
+          <li>Café – Café</li>
+          <li>Té – Chá</li>
+          <li>Manzana – Maçã</li>
+          <li>Plátano – Banana</li>
+          <li>Naranja – Laranja</li>
+          <li>Queso – Queijo</li>
+          <li>Arroz – Arroz</li>
+          <li>Pollo – Frango</li>
+          <li>Pescado – Peixe</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="familia">
+    <h2>Família</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>Padre – Pai</li>
+          <li>Madre – Mãe</li>
+          <li>Hermano – Irmão</li>
+          <li>Hermana – Irmã</li>
+          <li>Abuelo – Avô</li>
+          <li>Abuela – Avó</li>
+          <li>Tío – Tio</li>
+          <li>Tía – Tia</li>
+          <li>Hijo – Filho</li>
+          <li>Hija – Filha</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="expressoes">
+    <h2>Expressões Úteis</h2>
+    <div class="vocab-container">
+      <div class="vocab-card">
+        <ul>
+          <li>¿Dónde está…? – Onde está…?</li>
+          <li>¿Cuánto cuesta? – Quanto custa?</li>
+          <li>No entiendo – Não entendo</li>
+          <li>¿Puede ayudarme? – Pode me ajudar?</li>
+          <li>Estoy perdido(a) – Estou perdido(a)</li>
+          <li>Quisiera… – Eu gostaria de…</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  </section>
+
+  <section id="texto">
+    <h2>Texto para Leitura</h2>
+    <p><b>Espanhol:</b> "Hola, me llamo Ana y soy de Madrid. Me gusta estudiar y aprender idiomas."</p>
+    <p><b>Português:</b> "Olá, meu nome é Ana e sou de Madri. Eu gosto de estudar e aprender idiomas."</p>
+  </section>
+
+  <section id="video">
+    <h2>Vídeo Aula</h2>
+   <iframe width="676" height="392" src="https://www.youtube.com/embed/LlzhuO8Mg5Q" title="Aula de espanhol #01: Cumprimentos e apresentações" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Imagens</h2>
+    <div class="galeria">
+      <img src="https://midias.eurodicas.com.br/wp-content/uploads/2024/07/1_mapa-da-espanha-atual-1.jpg" alt="Mapa da Espanha">
+      <img src="https://images.tcdn.com.br/img/img_prod/695394/bandeira_espanha_estampada_uma_face_0_70x1_00m_1517_1_dc5093a0130c070e18258f98706d04d8.jpg" alt="Bandeira da Espanha">
+      <img src="https://midias-turismo.eurodicas.com.br/wp-content/uploads/2025/02/sagrada-familia-4.jpg.webp" alt="Barcelona - Sagrada Família">
+    </div>
+  </section>
+
+  <section id="quiz">
+    <h2>Quiz Rápido</h2>
+    <div class="quiz">
+      <p><b>Pergunta 1:</b> Como se diz “Obrigado” em espanhol?</p>
+      <button onclick="responder(1,'a')">Hola</button>
+      <button onclick="responder(1,'b')">Gracias</button>
+      <button onclick="responder(1,'c')">Adiós</button>
+      <p id="resultado1"></p>
+
+      <p><b>Pergunta 2:</b> O que significa “Buenos días”?</p>
+      <button onclick="responder(2,'a')">Boa noite</button>
+      <button onclick="responder(2,'b')">Bom dia</button>
+      <button onclick="responder(2,'c')">Até logo</button>
+      <p id="resultado2"></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aprendendo Espanhol</p>
+  </footer>
+
+  <script>
+    function responder(pergunta, opcao) {
+      let res;
+      if(pergunta === 1) {
+        res = document.getElementById('resultado1');
+        if(opcao === 'b') {res.textContent = '✅ Correto! “Gracias” significa Obrigado.'; res.style.color = 'green';}
+        else {res.textContent = '❌ Errado! A resposta certa é “Gracias”.'; res.style.color = 'red';}
+      }
+      if(pergunta === 2) {
+        res = document.getElementById('resultado2');
+        if(opcao === 'b') {res.textContent = '✅ Correto! “Buenos días” significa Bom dia.'; res.style.color = 'green';}
+        else {res.textContent = '❌ Errado! A resposta certa é “Buenos días = Bom dia”.'; res.style.color = 'red';}
+      }
+    }
+  </script>
+</body>
+</html>
